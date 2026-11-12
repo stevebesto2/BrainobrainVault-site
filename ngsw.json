@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1794507602057,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-IRHP2GIE.js",
+        "/manifest.webmanifest",
+        "/styles-HHGFQFEZ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/brand/brainobrain-logo-dark.png",
+        "/brand/brainobrain-logo.png",
+        "/brand/brainobrain-mark.png",
+        "/brand/favicon-clear.png",
+        "/brand/favicon-title.png",
+        "/brand/favicon.png",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/brand/brainobrain-logo-dark.png": "3fd95ebe78d11d5fdf7344812ef804af576040d3",
+    "/brand/brainobrain-logo.png": "648676c58b9d3cba0cce6bdd5e3830a99d2145f8",
+    "/brand/brainobrain-mark.png": "f6234bdf923a3233f636f9dd11c59cf53e349a10",
+    "/brand/favicon-clear.png": "4c63e9cae032689e265a71ccedf2c084c6475a65",
+    "/brand/favicon-title.png": "1fc61d88e931bcaaf2a9abe5a20dd2615e74f838",
+    "/brand/favicon.png": "052f8b9ad61093dbff7091d3c8f0fc0552f0be0d",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/index.html": "c5bf7cba16420dd003de78250e3313c677e961c4",
+    "/main-IRHP2GIE.js": "41c2427d108a260563a122a6a000dcea79110569",
+    "/manifest.webmanifest": "0060f861b7306895cf61e80f3549507af1d05ee9",
+    "/styles-HHGFQFEZ.css": "0ee258c4a288ab341b6da6c6eec2e6b000bbf8ba"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
